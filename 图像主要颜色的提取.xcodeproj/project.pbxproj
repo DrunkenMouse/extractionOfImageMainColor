@@ -15,6 +15,7 @@
 		16CF9B6C1DE5318F00073787 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16CF9B6A1DE5318F00073787 /* LaunchScreen.storyboard */; };
 		16CF9B771DE5318F00073787 /* _________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CF9B761DE5318F00073787 /* _________Tests.m */; };
 		16CF9B821DE5318F00073787 /* _________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CF9B811DE5318F00073787 /* _________UITests.m */; };
+		16CF9B911DE531A900073787 /* UIImage+ADOMainColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 16CF9B901DE531A900073787 /* UIImage+ADOMainColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		16CF9B7D1DE5318F00073787 /* 图像主要颜色的提取UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "图像主要颜色的提取UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		16CF9B811DE5318F00073787 /* _________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_________UITests.m"; sourceTree = "<group>"; };
 		16CF9B831DE5318F00073787 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16CF9B8F1DE531A900073787 /* UIImage+ADOMainColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ADOMainColor.h"; sourceTree = "<group>"; };
+		16CF9B901DE531A900073787 /* UIImage+ADOMainColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ADOMainColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				16CF9B601DE5318F00073787 /* AppDelegate.m */,
 				16CF9B621DE5318F00073787 /* ViewController.h */,
 				16CF9B631DE5318F00073787 /* ViewController.m */,
+				16CF9B8F1DE531A900073787 /* UIImage+ADOMainColor.h */,
+				16CF9B901DE531A900073787 /* UIImage+ADOMainColor.m */,
 				16CF9B651DE5318F00073787 /* Main.storyboard */,
 				16CF9B681DE5318F00073787 /* Assets.xcassets */,
 				16CF9B6A1DE5318F00073787 /* LaunchScreen.storyboard */,
@@ -274,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16CF9B641DE5318F00073787 /* ViewController.m in Sources */,
+				16CF9B911DE531A900073787 /* UIImage+ADOMainColor.m in Sources */,
 				16CF9B611DE5318F00073787 /* AppDelegate.m in Sources */,
 				16CF9B5E1DE5318F00073787 /* main.m in Sources */,
 			);
